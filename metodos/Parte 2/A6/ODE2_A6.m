@@ -1,0 +1,1 @@
+function dwdx = ODE2_A6(x, Lx, w)  q0 = 30000;  EI = 1.2*10^7;  L = 4;    dwdx = (1/6) * q0 * (Lx-(x^3/L)) * (1/EI)  
